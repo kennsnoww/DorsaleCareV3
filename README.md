@@ -87,7 +87,7 @@ L'application implémente Spring Security pour l'authentification et l'autorisat
 
 ## Utilisation
 
-Pour utiliser cette API, effectuez des requêtes HTTP aux points d'extrémité spécifiés en utilisant les méthodes appropriées (GET, POST, PUT, DELETE). Assurez-vous d'avoir les informations d'authentification correctes pour accéder aux points d'extrémité sécurisés.
+Pour utiliser cette API, effectuez des requêtes HTTP aux Endpoints spécifiés en utilisant les méthodes appropriées (GET, POST, PUT, DELETE). Assurez-vous d'avoir les informations d'authentification correctes pour accéder aux points d'extrémité sécurisés.
 
 Pour plus d'informations et des directives d'utilisation détaillées, consultez le code source et la documentation associée.
 
