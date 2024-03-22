@@ -1,6 +1,6 @@
 # Documentation de l'API DorsalCare
 
-Ce dépôt contient le code backend du projet DorsalCare, se concentrant spécifiquement sur la gestion des utilisateurs et des corrections. Vous trouverez ci-dessous des détails sur les principaux composants, les points d'extrémité et les fonctionnalités de cette API. ce code été tester exclusivement avec ##Swagger
+Ce dépôt contient le code backend du projet DorsalCare, se concentrant spécifiquement sur la gestion des utilisateurs et des corrections. Vous trouverez ci-dessous des détails sur les principaux composants, les points d'extrémité et les fonctionnalités de cette API. ce code été tester exclusivement avec `Swagger`
 
 ## CorrectionController
 
