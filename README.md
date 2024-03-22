@@ -13,6 +13,12 @@ Le `CorrectionController` gère les opérations CRUD liées aux corrections.
 - **GET** `/api/corrections/{id}`: Obtenir une correction par ID.
 - **PUT** `/api/corrections/{id}`: Mettre à jour une correction par ID.
 - **DELETE** `/api/corrections/{id}`: Supprimer une correction par ID.
+- **GET** `/api/corrections/byDateRange`: Récupérer les corrections par plage de dates.
+
+  ## Paramètres pour /byDateRange
+userId: `Long` (ID de l'utilisateur)
+startDate: `Date` (Date de début de la plage au format ISO)
+endDate: `Date` (Date de fin de la plage au format ISO)
 
 ## UserController
 
