@@ -1,0 +1,17 @@
+Index: src/main/java/com/isge/DorsalCare/config/SecurityConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/isge/DorsalCare/config/SecurityConfig.java b/src/main/java/com/isge/DorsalCare/config/SecurityConfig.java
+--- a/src/main/java/com/isge/DorsalCare/config/SecurityConfig.java	
++++ b/src/main/java/com/isge/DorsalCare/config/SecurityConfig.java	(date 1710695827651)
+@@ -23,7 +23,7 @@
+     @Bean
+     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+         http.authorizeHttpRequests(auth -> auth
+-                        .requestMatchers("/", "/user/save", "/product/all").permitAll()
++                        .requestMatchers("/", "/api/users/", "/api/users/{id}").permitAll()
+                         .anyRequest().authenticated())
+                 .httpBasic(withDefaults())
+                 .formLogin(withDefaults())
