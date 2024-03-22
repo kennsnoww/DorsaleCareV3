@@ -99,4 +99,4 @@ Pour plus d'informations et des directives d'utilisation détaillées, consultez
 
 ---
 
-Ce README fournit un aperçu des composants clés et des fonctionnalités de l'API DorsalCare. Pour des détails d'implémentation et des instructions d'utilisation détaillées, veuillez vous référer au code source et à la documentation accompagnante.
+Ce README fournit un aperçu des composants clés et des fonctionnalités de l'API DorsalCare. Pour des détails d'implémentation et des instructions d'utilisation détaillées, veuillez vous référer au code source.
